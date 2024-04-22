@@ -8,12 +8,24 @@ body {
     font-family: sans-serif;
 }
 
+.validator {
+    justify-content: center;
+    display: flex;
+    width: 1440px;
+    height: 1024px;
+    top: 1009px;
+    left: -256px;
+    gap: 0px;
+    opacity: 0px;
+}
+
 .logo-box {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 20%;
     transform: translate(-50%, -50%);
     width: 400px;
+    height: 500px;
     padding: 40px;
     background: rgba(128, 223, 152, 0.5);
     box-sizing: border-box;
@@ -73,4 +85,11 @@ body {
     border: none;
     outline: none;
     border-radius: 6px;
+}
+
+.img img {
+    padding-left: 30%;
+    padding-top: 65%;
+    width: 350px;
+    height: 500px;
 }
